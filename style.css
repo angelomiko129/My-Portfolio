@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    color: #402e2e;
+}
+
+/* Header Design */
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg/bg2.png);
+    background-position: center right;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    transition: background-position-y 0.5s ease;
+    border-bottom: #93583c solid 1px;
+}
+
+.container {
+    margin: 15px 8%;
+    width: 50%;
+}
+
+nav h1 {
+    font-weight: 700;
+    color: #93583c;
+}
+
+nav h1 span {
+    color: #c18255;
+}
+
+nav ul {
+    position: absolute;
+    right: 0;
+    top: 2.1875rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c18255;
+    font-weight: 700;
+    font-size: 1.125em;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c18255;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.7s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-intro {
+    width: 100%;
+    margin-top: 36%;
+    font-size: 1.25rem;
+    color: #c18255;
+    background: transparent;
+}
+
+.header-intro h1 {
+    color: #93583c;
+    font-size: 3.125rem;
+}
+
+.header-intro h1 span {
+    color: #161a30;
+}
+
+.download-cor {
+    font-size: 1em;
+    color: #93583c;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    border: 3px solid #93583c;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.download-cor:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: #93583c;
+    -webkit-box-shadow: 0 0 14px 3px #c18255;
+    -moz-box-shadow: 0 0 14px 3px #c18255;
+    box-shadow: 0 0 14px 3px #c18255;
+}
+
+/*  About Design */
+
+#about {
+    width: 100%;
+    height: 121vh;
+    padding: 80px 0;
+    border-bottom: #93583c solid 1px;
+}
+
+.about-intro p.intro::first-line {
+    text-align: center;
+    font-size: 3.125rem;
+    color: #c18255;
+    font-weight: 500;
+}
+
+.about-intro h1 {
+    color: #93583c;
+}
+
+.about-intro p {
+    color: #c18255;
+}
+
+.social-links {
+    color: #93583c;
+    font-weight: 800;
+}
+
+.about-intro  img:hover {
+    transform: scale(1.4);
+}
+
+img {
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+.tab-tiles {
+    display: flex;
+    margin: 20px 0px 20px;
+    position: relative;
+}
+
+.tab-links {
+    margin-right: 50px;
+    cursor: pointer;
+    color: #93583c;
+    font-weight: 800;
+}
+
+.tab-links:hover {
+    border-bottom: 1px solid #93583c;
+}
+
+.tab-contents {
+    margin-top: 0;
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+ul li {
+    color: #c18255;
+    font-weight: 500;
+    list-style: none;
+    margin: 10px 0;
+}
+
+ul li span {
+    color: #93583c;
+    font-weight: 700;
+}
+
+.list-deco {
+    list-style: circle inside;
+}
+
+/*  Skills Design */
+
+#skills {
+    width: 100%;
+    height: 115vh;
+    padding: 80px 0;
+    border-bottom: #93583c solid 1px;
+}
+
+.container1 {
+    margin: 15px auto;
+    width: 50%;
+}
+
+.skills-intro p.intro::first-line {
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+.skills-intro h1 {
+    color: #93583c;
+    text-align: center;
+}
+
+.skills-intro p {
+    color: #c18255;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    border: #93583c solid 2px;
+    border-radius: 75px;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+.box-container p {
+    font-weight: 700;
+}
+
+.skill-item {
+    text-align: center;
+    width: 33.33%;
+}
+
+.skill-item img {
+    width: 40px;
+    height: 30px;
+}
+
+.skill-item p {
+    color: #c18255;
+    margin: 5px 0;
+}
+
+.basic-text {
+    color: #c18255;
+    font-weight: 400 !important;
+}
+
+figcaption {
+    margin: 20px auto;
+    text-align: center;
+    color: #c18255;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+/* Contact Design */
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+}
+
+.contact-info p.intro::first-line {
+    font-size: 3.125rem;
+    color: #c18255;
+    font-weight: 500;
+}
+
+.contact-info h1 {
+    color: #93583c;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #93583c;
+    outline: none;
+    border-radius: 4px;
+    resize: none;
+    color: #c18255;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 1.875rem;
+    color: #c18255;
+    font-weight: 500;
+}
+
+input[type=submit] {
+    background-color: #c18255;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #93583c;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}

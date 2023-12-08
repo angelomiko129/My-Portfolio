@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header Layout -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>MIK<span>CODES</span></h1>
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-intro">
+                <p>Front-End Web Developer</p>
+                <h1>HI, I'm <span>Miko</span> the <span>Great</span><br>from Phillippines</h1>
+                <p class="download-cor">Download COR</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Layout -->
+    <div id="about">
+        <div class="container">
+            <div class="about-intro">
+                <p class="intro">01. Know more...</p>
+                <h1>About Me.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p class="social-links"><br>Social Links:<br></p>
+                <a href="https://github.com/angelomiko129" target="_blank"><img src="images/svg-icons/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/ang
+                elo-miko-botabara-4b4b06296" target="_blank"><img src="images/svg-icons/linkedin.svg" alt=""></a>
+                <a href="https://stackoverflow.com/users/22772335/miko" target="_blank"><img src="images/svg-icons/stackoverflow.svg" alt=""></a>
+
+                <div class="tab-tiles">
+                    <p class="tab-links active-link" onclick="openTab('bio')">BIOGRAPHY</p>
+                    <p class="tab-links" onclick="openTab('status')">STATUS</p>
+                    <p class="tab-links" onclick="openTab('education')">EDUCATION</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="bio">
+                    <ul>
+                        <li><span>Full name:<br></span>Angelo Miko A. Botabara</li>
+                        <li><span>Age:<br></span>19</li>
+                        <li><span>Birthdate:<br></span>December 29, 2003</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="status">
+                    <ul>
+                        <li><span>Currently learning:<br></span>
+                        <li class="list-deco">HTML</li>
+                        <li class="list-deco">CSS</li>
+                        <li class="list-deco">JavaScript</li></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Currently studying at:<br></span>University(2nd year sophomore)</li>
+                        <li><span>Educational attainment:<br></span>
+                            <li class="list-deco">Elementary(Graduated/Completed) - Batch</li>
+                            <li class="list-deco">Junior High School(Graduated/Completed) - Batch</li>
+                            <li class="list-deco">Senior High School(Graduated/Completed) - Batch</li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Layout -->
+    <div id="skills">
+        <div class="container1">
+            <div class="skills-intro">
+                <p class="intro">02. My extraordinary...</p>
+                <h1>Skills</h1>
+                </div>
+            <div class="box-container">
+                <div   div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>HTML</p>
+                    <p class="basic-text">Basic</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>CSS</p>
+                    <p class="basic-text">Basic</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>JS</p>
+                    <p class="basic-text">Toddler</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>C</p>
+                    <p class="basic-text">Basic</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>C#</p>
+                    <p class="basic-text">Toddler</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/svg-icons/checkmark.svg">
+                    <p>Kotlin</p>
+                    <p class="basic-text">Toddler</p>
+                </div>
+            </div>
+            <figcaption>My journey throughout the year.</figcaption>
+        </div>
+    </div>
+
+    <!-- Contact Layout -->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <p class="intro">03. You may want to...</p>
+                <h1>Contact Me.</h1>
+            </div>
+        </div>
+
+            <div class="container1">
+            <div class="form-container">
+                <form action="goto:unknownz1102@gmail.com">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="email">Email:</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject:</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="message">Message:</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                      </div>
+                    
+                    <br>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                    </form>
+                    </div>
+            </div>
+        </div>
+
+</body>
+</html>
