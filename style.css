@@ -42,14 +42,14 @@ nav h1 span {
 nav ul {
     position: absolute;
     right: 0;
-    top: 2.1875rem;
+    top: 1.25rem;
 }
 
 nav ul li {
     list-style: none;
     display: inline;
     margin: 0 1.25rem;
-    padding: 0.625rem 1.563rem;
+    padding: 0.625rem 10px;
 }
 
 nav ul li a {
@@ -90,6 +90,10 @@ nav ul li a:hover::after {
 
 .header-intro h1 span {
     color: #161a30;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .download-cor {
@@ -142,7 +146,7 @@ nav ul li a:hover::after {
     font-weight: 800;
 }
 
-.about-intro  img:hover {
+.about-intro img:hover {
     transform: scale(1.4);
 }
 
@@ -334,4 +338,89 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width:1080px) {
+    nav ul {
+        width: 40%;
+        top: 4.688rem;
+        right: 0;
+    }
+
+    nav ul li {
+        display: none;
+        margin: 0.625rem 0;
+    }
+
+    nav ul li a {
+        border-bottom: 1px solid #fff;
+    }
+
+    .header-intro h1 {
+        font-size: 2.375rem;
+    }
+
+    #header {
+        background: none;
+    }
+
+    #about {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .tab-tiles {
+        flex-wrap: wrap;
+    }
+
+    .tab-links {
+        margin-right: 1rem;
+    }
+
+    #skills {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .container1 {
+        width: 80%;
+    }
+
+    .box-container {
+        padding: 5%;
+    }
+
+    #contact {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .contact-info,
+    .form-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form-container {
+        padding: 5%;
+    }
+
+    .row {
+        margin: 1rem 0;
+    }
+
+    .col-25,
+    .col-75 {
+        float: none;
+        width: 100%;
+    }
+
+    input[type=submit] {
+        float: none;
+        width: 100%;
+    }
 }
