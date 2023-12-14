@@ -423,4 +423,10 @@ input[type=submit]:hover {
         float: none;
         width: 100%;
     }
+
+    .about-intro p.intro,
+    .skills-intro p.intro,
+    .contact-info p.intro {
+        font-size: 2.375rem;
+    }
 }
