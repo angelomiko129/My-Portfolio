@@ -318,12 +318,6 @@ input[type=submit]:hover {
     background-color: #93583c;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
 .col-25 {
     float: left;
     width: 25%;
