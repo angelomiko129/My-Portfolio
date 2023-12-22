@@ -8,8 +8,8 @@
 }
 
 body {
-    background: white;
-    color: #402e2e;
+    background: #092635;
+    color: #fff;
 }
 
 /* Header Design */
@@ -22,7 +22,7 @@ body {
     /* background-size: cover; */
     background-repeat: no-repeat;
     transition: background-position-y 0.5s ease;
-    border-bottom: #93583c solid 1px;
+    border-bottom: #9EC8B9 solid 1px;
 }
 
 .container {
@@ -32,11 +32,10 @@ body {
 
 nav h1 {
     font-weight: 700;
-    color: #93583c;
 }
 
 nav h1 span {
-    color: #c18255;
+    color: #9EC8B9;
 }
 
 nav ul {
@@ -54,7 +53,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #c18255;
+    color: #9EC8B9;
     font-weight: 700;
     font-size: 1.125em;
     position: relative;
@@ -64,7 +63,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 0.188rem;
-    background: #c18255;
+    background: #9EC8B9;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -79,17 +78,15 @@ nav ul li a:hover::after {
     width: 100%;
     margin-top: 36%;
     font-size: 1.25rem;
-    color: #c18255;
     background: transparent;
 }
 
 .header-intro h1 {
-    color: #93583c;
     font-size: 3.125rem;
 }
 
 .header-intro h1 span {
-    color: #161a30;
+    color: #9EC8B9;
 }
 
 .menu-icon {
@@ -98,11 +95,11 @@ nav ul li a:hover::after {
 
 .download-cor {
     font-size: 1rem;
-    color: #93583c;
+    color: #9EC8B9;
     display: inline-block;
     padding: 0.625rem 1.875rem;
     position: relative;
-    border: 3px solid #93583c;
+    border: 3px solid #9EC8B9;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -110,11 +107,11 @@ nav ul li a:hover::after {
 
 .download-cor:hover {
     transform: scale(1.1);
-    color: #fff;
-    background-color: #93583c;
-    -webkit-box-shadow: 0 0 0.875rem 0.188rem #c18255;
-    -moz-box-shadow: 0 0 0.875rem 0.188rem #c18255;
-    box-shadow: 0 0 0.875rem 0.188rem #c18255;
+    color: #092635;
+    background-color: #9EC8B9;
+    -webkit-box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
+    -moz-box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
+    box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
 }
 
 /*  About Design */
@@ -123,26 +120,16 @@ nav ul li a:hover::after {
     width: 100%;
     height: 50rem;
     padding: 5rem 0;
-    border-bottom: #93583c solid 1px;
+    /* border-bottom: #93583c solid 1px; */
 }
 
 .about-intro p.intro::first-line {
     text-align: center;
     font-size: 3.125rem;
-    color: #c18255;
     font-weight: 500;
 }
 
-.about-intro h1 {
-    color: #93583c;
-}
-
-.about-intro p {
-    color: #c18255;
-}
-
 .social-links {
-    color: #93583c;
     font-weight: 800;
 }
 
@@ -166,12 +153,12 @@ img {
 .tab-links {
     margin-right: 3.125rem;
     cursor: pointer;
-    color: #93583c;
+    color: #9EC8B9;
     font-weight: 800;
 }
 
 .tab-links:hover {
-    border-bottom: 1px solid #93583c;
+    border-bottom: 1px solid #9EC8B9;
 }
 
 .tab-contents {
@@ -184,14 +171,13 @@ img {
 }
 
 ul li {
-    color: #c18255;
     font-weight: 500;
     list-style: none;
     margin: 0.625rem 0;
 }
 
 ul li span {
-    color: #93583c;
+    color: #9EC8B9;
     font-weight: 700;
 }
 
@@ -205,7 +191,7 @@ ul li span {
     width: 100%;
     height: 50rem;
     padding: 5rem 0;
-    border-bottom: #93583c solid 1px;
+    /* border-bottom: #93583c solid 1px; */
 }
 
 .container1 {
@@ -219,12 +205,10 @@ ul li span {
 }
 
 .skills-intro h1 {
-    color: #93583c;
     text-align: center;
 }
 
 .skills-intro p {
-    color: #c18255;
     text-align: center;
 }
 
@@ -233,7 +217,7 @@ ul li span {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    border: #93583c solid 2px;
+    border: #9EC8B9 solid 2px;
     border-radius: 75px;
     padding: 10%;
     margin-top: 5%;
@@ -254,19 +238,17 @@ ul li span {
 }
 
 .skill-item p {
-    color: #c18255;
     margin: 0.313rem 0;
 }
 
 .basic-text {
-    color: #c18255;
+    color: #9EC8B9;
     font-weight: 400 !important;
 }
 
 figcaption {
     margin: 1.25rem auto;
     text-align: center;
-    color: #c18255;
     font-weight: 700;
     font-size: 1.25rem;
 }
@@ -281,19 +263,14 @@ figcaption {
 
 .contact-info p.intro::first-line {
     font-size: 3.125rem;
-    color: #c18255;
     font-weight: 500;
-}
-
-.contact-info h1 {
-    color: #93583c;
 }
 
 input[type=text],
 textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid #93583c;
+    border: 2px solid #9EC8B9;
     outline: none;
     border-radius: 4px;
     resize: none;
@@ -304,12 +281,11 @@ label {
     padding: 0.75rem 0.75rem 0.75rem 0;
     display: inline-block;
     font-size: 1.875rem;
-    color: #c18255;
     font-weight: 500;
 }
 
 input[type=submit] {
-    background-color: #c18255;
+    background-color: #5C8374;
     color: white;
     padding: 0.75rem 1.25rem;
     border: none;
@@ -319,7 +295,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #93583c;
+    background-color: #1B4242;
 }
 
 .col-25 {
