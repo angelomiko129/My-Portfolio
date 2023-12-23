@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="main.js"></script>
     <title>My Portfolio</title>
 </head>
@@ -14,7 +15,8 @@
     <div id="header">
         <div class="container">
             <nav>
-                <h1>MIK<span>CODES</span></h1>
+                <h1 data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos-once="false">MIK<span>CODES</span></h1>
                 <ul>
                     <li><a href="#header">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -22,10 +24,12 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="header-intro">
+            <div class="header-intro" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                 <p>Front-End Web Developer</p>
-                <h1>HI, I'm <span>Miko</span> the <span>Great</span><br>from Phillippines</h1>
-                <p class="download-cor">Download COR</p>
+                <h1>HI, I'm <span>Miko</span> the <span>Great</span><br>from Philippines</h1>
+                <p class="download-cor" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">Download COR</p>
             </div>
         </div>
     </div>
@@ -33,10 +37,12 @@
     <!-- About Layout -->
     <div id="about">
         <div class="container">
-            <div class="about-intro">
+            <div class="about-intro" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                 <p class="intro">01. Know more...</p>
                 <h1>About Me.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                <p data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -49,7 +55,8 @@
                 <a href="https://stackoverflow.com/users/22772335/miko" target="_blank"><img
                         src="images/svg-icons/stackoverflow.svg" alt=""></a>
 
-                <div class="tab-tiles">
+                <div class="tab-tiles" data-aos="fade-down" data-aos-offset="200" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                     <p class="tab-links active-link" onclick="openTab('bio')">BIOGRAPHY</p>
                     <p class="tab-links" onclick="openTab('status')">STATUS</p>
                     <p class="tab-links" onclick="openTab('education')">EDUCATION</p>
@@ -88,11 +95,13 @@
     <!-- Skills Layout -->
     <div id="skills">
         <div class="container1">
-            <div class="skills-intro">
+            <div class="skills-intro" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="800"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                 <p class="intro">02. My extraordinary...</p>
                 <h1>Skills</h1>
             </div>
-            <div class="box-container">
+            <div class="box-container" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="800"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                 <div div class="skill-item">
                     <img src="images/svg-icons/checkmark.svg">
                     <p>HTML</p>
@@ -124,20 +133,23 @@
                     <p class="basic-text">Toddler</p>
                 </div>
             </div>
-            <figcaption>My journey throughout the year.</figcaption>
+            <figcaption data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">My journey throughout the year.</figcaption>
         </div>
     </div>
 
     <!-- Contact Layout -->
     <div id="contact">
         <div class="container">
-            <div class="contact-info">
+            <div class="contact-info" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
                 <p class="intro">03. You may want to...</p>
                 <h1>Contact Me.</h1>
             </div>
         </div>
 
-        <div class="container1">
+        <div class="container1" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-once="false" data-aos-mirror="true">
             <div class="form-container">
                 <form action="goto:unknownz1102@gmail.com">
                     <div class="row">
@@ -178,6 +190,10 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
