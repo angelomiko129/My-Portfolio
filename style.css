@@ -132,7 +132,7 @@ nav ul li a:hover::after {
 /*  About Design */
 
 #about {
-    width: 100%;
+    width: 85%;
     height: 37.5rem;
     padding: 5rem 0;
     margin: 150px 0 0;
@@ -205,7 +205,7 @@ ul li span {
 /*  Skills Design */
 
 #skills {
-    width: 100%;
+    width: 85%;
     height: 43.75rem;
     padding: 5rem 0;
 }
@@ -273,7 +273,7 @@ figcaption {
 /* Contact Design */
 
 #contact {
-    width: 100%;
+    width: 85%;
     height: 43.75rem;
     padding: 5rem 0;
 }
