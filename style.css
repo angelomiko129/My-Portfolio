@@ -8,25 +8,23 @@
 }
 
 body {
-    background: #092635;
-    color: #fff;
+    background: #fff;
+    color: #e6b27e;
 }
 
 /* Header Design */
 
 #header {
-    width: 100%;
-    height: 50rem;
-    background: url(images/bg/bg2.png);
+    width: 85%;
+    height: 37.5rem;
     background-position: center right;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     transition: background-position-y 0.5s ease;
-    border-bottom: #9EC8B9 solid 1px;
 }
 
 .container {
-    margin: 0.938rem 8%;
+    margin: 0.938rem 17%;
     width: 50%;
 }
 
@@ -34,26 +32,34 @@ nav h1 {
     font-weight: 700;
 }
 
+.logo {
+    position: absolute;
+    margin: 0 -29px;
+}
+
 nav h1 span {
-    color: #9EC8B9;
+    color: #c56f33;
 }
 
 nav ul {
     position: absolute;
     right: 0;
-    top: 1.25rem;
+    top: 1.125rem;
+    margin: 0 16%;
 }
 
 nav ul li {
+    position: relative;
     list-style: none;
     display: inline;
     margin: 0 1.25rem;
     padding: 0.625rem 10px;
+    right: 0;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #c56f33;
     font-weight: 700;
     font-size: 1.125em;
     position: relative;
@@ -63,7 +69,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 0.188rem;
-    background: #fff;
+    background: #c56f33;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -76,7 +82,7 @@ nav ul li a:hover::after {
 
 .header-intro {
     width: 100%;
-    margin-top: 36%;
+    margin-top: 16%;
     font-size: 1.25rem;
     background: transparent;
 }
@@ -86,7 +92,7 @@ nav ul li a:hover::after {
 }
 
 .header-intro h1 span {
-    color: #9EC8B9;
+    color: #c56f33;
 }
 
 .menu-icon {
@@ -95,11 +101,11 @@ nav ul li a:hover::after {
 
 .download-cor {
     font-size: 1rem;
-    color: #9EC8B9;
+    color: #e6b27e;
     display: inline-block;
     padding: 0.625rem 1.875rem;
     position: relative;
-    border: 3px solid #9EC8B9;
+    border: 3px solid #e6b27e;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -107,30 +113,41 @@ nav ul li a:hover::after {
 
 .download-cor:hover {
     transform: scale(1.1);
-    color: #092635;
-    background-color: #9EC8B9;
-    -webkit-box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
-    -moz-box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
-    box-shadow: 0 0 0.875rem 0.188rem #9EC8B9;
+    color: #fff;
+    background-color: #e6b27e;
+    -webkit-box-shadow: 0 0 0.875rem 0.188rem #e6b27e;
+    -moz-box-shadow: 0 0 0.875rem 0.188rem #e6b27e;
+    box-shadow: 0 0 0.875rem 0.188rem #e6b27e;
+}
+
+.side-img {
+    position: absolute;
+    right: 0;
+    top: 9.375rem;
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: 0 17%;
 }
 
 /*  About Design */
 
 #about {
     width: 100%;
-    height: 50rem;
+    height: 37.5rem;
     padding: 5rem 0;
-    /* border-bottom: #93583c solid 1px; */
+    margin: 150px 0 0;
 }
 
 .about-intro p.intro::first-line {
     text-align: center;
     font-size: 3.125rem;
     font-weight: 500;
+    color: #c56f33;
 }
 
 .social-links {
     font-weight: 800;
+    color: #c56f33;
 }
 
 .about-intro img:hover {
@@ -153,12 +170,12 @@ img {
 .tab-links {
     margin-right: 3.125rem;
     cursor: pointer;
-    color: #9EC8B9;
+    color: #c56f33;
     font-weight: 800;
 }
 
 .tab-links:hover {
-    border-bottom: 1px solid #9EC8B9;
+    border-bottom: 1px solid #c56f33;
 }
 
 .tab-contents {
@@ -177,7 +194,7 @@ ul li {
 }
 
 ul li span {
-    color: #9EC8B9;
+    color: #c56f33;
     font-weight: 700;
 }
 
@@ -189,9 +206,8 @@ ul li span {
 
 #skills {
     width: 100%;
-    height: 50rem;
+    height: 43.75rem;
     padding: 5rem 0;
-    /* border-bottom: #93583c solid 1px; */
 }
 
 .container1 {
@@ -202,6 +218,7 @@ ul li span {
 .skills-intro p.intro::first-line {
     font-size: 3.125rem;
     font-weight: 500;
+    color: #c56f33;
 }
 
 .skills-intro h1 {
@@ -217,7 +234,7 @@ ul li span {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    border: #9EC8B9 solid 2px;
+    border: #c56f33 solid 2px;
     border-radius: 75px;
     padding: 10%;
     margin-top: 5%;
@@ -242,7 +259,7 @@ ul li span {
 }
 
 .basic-text {
-    color: #9EC8B9;
+    color: #c56f33;
     font-weight: 400 !important;
 }
 
@@ -257,24 +274,25 @@ figcaption {
 
 #contact {
     width: 100%;
-    height: 50rem;
+    height: 43.75rem;
     padding: 5rem 0;
 }
 
 .contact-info p.intro::first-line {
     font-size: 3.125rem;
     font-weight: 500;
+    color: #c56f33;
 }
 
 input[type=text],
 textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid #9EC8B9;
+    border: 2px solid #e6b27e;
     outline: none;
     border-radius: 4px;
     resize: none;
-    color: #000;
+    color: #e6b27e;
 }
 
 label {
@@ -285,7 +303,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #5C8374;
+    background-color: #e6b27e;
     color: white;
     padding: 0.75rem 1.25rem;
     border: none;
@@ -295,7 +313,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #1B4242;
+    background-color: #c56f33;
 }
 
 .col-25 {
@@ -336,8 +354,8 @@ input[type=submit]:hover {
         font-size: 2.375rem;
     }
 
-    #header {
-        background: none;
+    .side-img {
+        display: none;
     }
 
     #about {
